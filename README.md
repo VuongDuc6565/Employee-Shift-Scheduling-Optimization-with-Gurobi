@@ -79,7 +79,15 @@ If the initial setup fails:
 - [Gurobi](https://www.gurobi.com) and Gurobi Python API
 - `pandas` library
 
-Install Python dependencies:
-```bash
-pip install pandas
 
+```bash
+# 1. Install packages
+pip install pandas
+pip install gurobipy
+
+# 2. Run the optimisation
+python Schedule.py   
+
+# 3. Results
+# schedule_out.xlsx
+```
