@@ -58,14 +58,14 @@ The goal is to **minimize the total evaluation cost** based on how suitable each
 <pre> total_cost = SUM( RANK_MORNING × morning_shifts + RANK_NOON × noon_shifts + 2 × RANK_AFTERNOON × afternoon_shifts + RANK_EVENING × evening_shifts ) </pre>
 ---
 
-## 📦 Output
+## Output
 
 - A readable and formatted Excel file `schedule_out.xlsx` with each employee’s schedule in time ranges per day
 - Example entries: `6h-10h`, `12h-18h`, `OFF`
 
 ---
 
-## 🚨 If No Feasible Schedule Found
+## If No Feasible Schedule Found
 
 If the initial setup fails:
 - The script automatically adds a backup employee (`AS`) available full time
@@ -73,7 +73,7 @@ If the initial setup fails:
 
 ---
 
-## 🧪 Requirements
+## Requirements
 
 - Python 3.x
 - [Gurobi](https://www.gurobi.com) and Gurobi Python API
