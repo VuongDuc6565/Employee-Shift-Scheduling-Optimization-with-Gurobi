@@ -55,18 +55,7 @@ Each row corresponds to one employee and must include:
 
 The goal is to **minimize the total evaluation cost** based on how suitable each employee is for a given shift.
 
-If your Markdown viewer supports LaTeX:
-
-```latex
-$$
-\text{total\_cost} = \sum \left(
-\text{RANK}_{\text{MORNING}} \times \text{morning\_shifts} +
-\text{RANK}_{\text{NOON}} \times \text{noon\_shifts} +
-2 \times \text{RANK}_{\text{AFTERNOON}} \times \text{afternoon\_shifts} +
-\text{RANK}_{\text{EVENING}} \times \text{evening\_shifts}
-\right)
-$$
-```
+<pre> ```text total_cost = SUM( RANK_MORNING × morning_shifts + RANK_NOON × noon_shifts + 2 × RANK_AFTERNOON × afternoon_shifts + RANK_EVENING × evening_shifts ) ``` </pre>
 ---
 
 ## 📦 Output
