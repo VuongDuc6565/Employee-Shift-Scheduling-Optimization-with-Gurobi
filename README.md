@@ -1,1 +1,2 @@
-# My-project
+# Employee scheduling with GUROBI
+# 
