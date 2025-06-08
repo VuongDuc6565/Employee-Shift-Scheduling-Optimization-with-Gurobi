@@ -119,7 +119,7 @@ def generate_schedule_output(schedule, free_times, days):
 
 # Các thông tin đầu vào
 
-free_times = pd.read_excel('C:\\Users\\Administrator\\OneDrive\\Desktop\\schedule_in.xlsx') # Nhập file excel 
+free_times = pd.read_excel('schedule_in.xlsx') # Nhập file excel 
 
 rank1 = free_times["RANK_MORNING"]
 rank2 = free_times["RANK_NOON"]
