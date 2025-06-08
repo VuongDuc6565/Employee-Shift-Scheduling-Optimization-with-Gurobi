@@ -55,7 +55,7 @@ Each row corresponds to one employee and must include:
 
 The goal is to **minimize the total evaluation cost** based on how suitable each employee is for a given shift.
 
-<pre> ```text total_cost = SUM( RANK_MORNING × morning_shifts + RANK_NOON × noon_shifts + 2 × RANK_AFTERNOON × afternoon_shifts + RANK_EVENING × evening_shifts ) ``` </pre>
+<pre> total_cost = SUM( RANK_MORNING × morning_shifts + RANK_NOON × noon_shifts + 2 × RANK_AFTERNOON × afternoon_shifts + RANK_EVENING × evening_shifts ) </pre>
 ---
 
 ## 📦 Output
